@@ -50,14 +50,14 @@ Plantilla Dashboar version 1.1.0.
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada2.JPG)
-![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada3.JPG)
+
 --- 
 <br>
 
 #### Imagen-3         Portafolio " Mobile "
 --- 
 
-
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada3.JPG)
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada4.JPG)
 
 --- 
