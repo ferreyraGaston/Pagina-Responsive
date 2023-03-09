@@ -23,6 +23,7 @@
     --text-color-dark: #0E0E0E;
     --text-color-grey: #525254;
     --boxshadow-color: rgba(135,141,214,0.3);
+    --boxshadow-footer-color: rgba(0, 0, 0, 0.3);
     /* ======Transicion======= */
     --Trans-02: all 0.2 s ease;
     --Trans-03: all 0.3 s ease;
@@ -132,6 +133,7 @@ header{
     padding: 25px;
     margin: 0 10px;
     box-shadow: 0 0 20px var(--boxshadow-color);
+    border-radius: 10px;
 }
 .service img{
     margin-top: -50px;  /* para que quede arriba y en el centro la imagen */
@@ -144,4 +146,114 @@ header{
 .service p{
     color: var(--text-color-grey);
     font-size: 16px;
+}
+.porfolios{
+    padding: 80px 0;
+    text-align: center;
+    color: var(--text-color-dark);
+}
+.porfolios h2{
+    font-size: 55px;
+}
+.porfolio{
+    display: flex;
+    align-items: center;
+}
+.porfolio img{
+    width: 350px;
+}
+.porfolio-1{
+    text-align: left;
+    margin-left: 100px;
+}
+.porfolio-1 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.porfolio-1 p{
+    font-size: 18px;
+    color: var(--text-color-grey);
+    margin-bottom: 25px;
+}
+.porfolio-2{
+    text-align: left;
+    margin-right: 100px;
+}
+.porfolio-2 h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.porfolio-2 p{
+    font-size: 18px;
+    color: var(--text-color-grey);
+    margin-bottom: 25px;
+}
+.btn-2{
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: var(--primary-color);
+    color: var(--primary-color-light);    
+}
+.btn-2:hover{
+    background-color: var(--booton-color-hover);
+}
+footer{
+    padding: 200px 0px 30px 0px;
+    background-image: url(../img/footer.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info-content{
+    display: flex;
+}
+.info-price{
+    padding: 35px;
+    text-align: center;
+    background-color: var(--primary-color-light);
+    box-shadow: 0 0 25px var(--boxshadow-footer-color);
+    margin: 0 150px 0 0;
+    border-radius: 25px;
+    color: var(--text-color-dark);
+}
+.info-price h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.info-price p{
+    font-size: 16px;
+    color: var(--text-color-grey);
+}
+.price{
+    font-size: 14px;
+    color: var(--text-color) !important;
+    margin-bottom: 10px;
+}
+.info-text{
+    margin-left: 35px;
+    color: var(--primary-color-light);
+}
+hr{
+    margin: 45px 0;
+    border: 0.5px solid var(--body-color);
+}
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+    color: var(--primary-color-light);
+}
+.enlaces h3{
+    font-size: 25px;
+}
+.enlace{
+    display: flex;
+}
+.enlace li a{
+    display: block;
+    margin: 20px;
+    color: var(--primary-color-light);
+}
+.enlace li a:hover{
+    color: var(--primary-color);
 }
