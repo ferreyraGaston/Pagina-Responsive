@@ -5,7 +5,7 @@
 #### Imagen-1         Presentacion " Desktop "
 --- 
 
-![image](https://github.com/gastonloco/dashboard-template/blob/main/img/img1.JPG)
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada1.JPG)
 
 --- 
 <br>
@@ -13,7 +13,7 @@
 #### Imagen-2         Servicio " Desktop "
 --- 
 
-![image](https://github.com/gastonloco/dashboard-template/blob/main/img/img2.JPG)
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada2.JPG)
 
 --- 
 <br>
@@ -21,7 +21,7 @@
 #### Imagen-3         Portafolio " Desktop "
 --- 
 
-![image](https://github.com/gastonloco/dashboard-template/blob/main/img/img3.JPG)
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada3.JPG)
 
 --- 
 <br>
@@ -29,7 +29,7 @@
 #### Imagen-4         Pie de pagina " Desktop "
 --- 
 
-![image](https://github.com/gastonloco/dashboard-template/blob/main/img/img4.JPG)
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
 
 --- 
 <br>
@@ -41,7 +41,7 @@ Plantilla Dashboar version 1.1.0.
 #### Imagen-1         Presentacion " Mobile "
 --- 
 
-![image](https://github.com/gastonloco/dashboard-template/blob/main/img/img1.JPG)
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada1.JPG)
 
 --- 
 <br>
@@ -49,15 +49,16 @@ Plantilla Dashboar version 1.1.0.
 #### Imagen-2         Servicio " Mobile "
 --- 
 
-![image](https://github.com/gastonloco/dashboard-template/blob/main/img/img2.JPG)
-
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada2.JPG)
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada3.JPG)
 --- 
 <br>
 
 #### Imagen-3         Portafolio " Mobile "
 --- 
 
-![image](https://github.com/gastonloco/dashboard-template/blob/main/img/img3.JPG)
+
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada4.JPG)
 
 --- 
 <br>
@@ -65,7 +66,7 @@ Plantilla Dashboar version 1.1.0.
 #### Imagen-4         Pie de pagina " Mobile "
 --- 
 
-![image](https://github.com/gastonloco/dashboard-template/blob/main/img/img4.JPG)
+![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada5.JPG)
 
 --- 
 <br>
