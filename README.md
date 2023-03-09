@@ -4,7 +4,7 @@
 
 ## Imagen-1         
 
-###Presentacion " Desktop "
+### Presentacion " Desktop "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada1.JPG)
@@ -15,7 +15,7 @@
 ## Imagen-2    
 
 
-###Servicio " Desktop "
+### Servicio " Desktop "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada2.JPG)
@@ -25,7 +25,7 @@
 
 ## Imagen-3         
 
-###Portafolio " Desktop "
+### Portafolio " Desktop "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada3.JPG)
@@ -35,7 +35,7 @@
 
 ## Imagen-4         
 
-###Pie de pagina " Desktop "
+### Pie de pagina " Desktop "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/portada4.JPG)
@@ -48,7 +48,7 @@
 
 ## Imagen-1         
 
-###Presentacion " Mobile "
+### Presentacion " Mobile "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada1.JPG)
@@ -58,7 +58,7 @@
 
 ## Imagen-2         
 
-###Servicio " Mobile "
+### Servicio " Mobile "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada2.JPG)
@@ -68,7 +68,7 @@
 
 ## Imagen-3         
 
-###Portafolio " Mobile "
+### Portafolio " Mobile "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada3.JPG)
@@ -79,7 +79,7 @@
 
 ## Imagen-4         
 
-###Pie de pagina " Mobile "
+### Pie de pagina " Mobile "
 --- 
 
 ![image](https://github.com/gastonloco/Portafolio-Responsive/blob/main/img/res-portada5.JPG)
