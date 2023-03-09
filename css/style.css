@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
-   /*  font-family: 'Libre Baskerville', serif; */
+   /*  Reseteadores */
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-transform: capitalize; /* para que ela primera letra empiece en mayuscula */
+    text-decoration: none;   /* quita las linea de los enlaces */
+    list-style: none; /* quitas las visñetas de las listas */
 }
 :root{
     /* =========color========= */
@@ -24,5 +27,36 @@
 body{
     height: 100vh;
     background: var(--body-color);
-    transition: var(--Trans-04);
+}
+header{
+    background-image: url(../img/hero.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat; /* hace que la imagen no se repita */
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.menu .logo{
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--primary-color-light);
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
 }
