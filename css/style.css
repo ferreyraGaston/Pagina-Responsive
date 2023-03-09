@@ -22,6 +22,7 @@
     --text-color: #AAB1FF;
     --text-color-dark: #0E0E0E;
     --text-color-grey: #525254;
+    --navbar-color-media: #5B50BC;
     --boxshadow-color: rgba(135,141,214,0.3);
     --boxshadow-footer-color: rgba(0, 0, 0, 0.3);
     /* ======Transicion======= */
@@ -256,4 +257,101 @@ hr{
 }
 .enlace li a:hover{
     color: var(--primary-color);
+}
+@media(max-width:991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--navbar-color-media);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    header{
+        height: 0vh;
+        padding: 400px 0;
+        background-position: center center;
+    }
+    .header-content{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0 30px;
+    }
+    .content{
+        padding: 0;
+    }
+    .content h1{
+        margin-top: 100px;
+        font-size: 45px;
+    }
+    .content p{
+        margin-top: 0;
+    }
+    .header-content img{
+        width: 150px;
+    }
+    .services{
+        flex-direction: column;
+        padding: 50px 30px 0 30px;
+        
+    }
+    .service{
+        margin-bottom: 50px;
+    }
+    .porfolios{
+        padding: 0 30px 30px 30px;
+    }
+    .porfolios h2{
+        margin-bottom: 15px;
+    }
+    .porfolio{
+        flex-direction: column;
+    }
+    .porfolio img{
+        display: none;
+    }
+    .porfolio-1{
+        text-align: center;
+        margin: 0 0 25px 0;
+    }
+    .porfolio-2{
+        text-align: center;
+        margin: 0 0 25px 0;
+    }
+    footer{
+        padding: 0 30px 30px 30px;
+    }
+    .info-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-price{
+        margin: 0 0 20px 0;
+    }
+    .info-text{
+        margin: 0;
+    }
+    hr{
+        margin: 25px 0;
+    }
+    .enlaces{
+        flex-direction: column;
+        align-items: center;
+    }
+    .enlace{
+        flex-direction: column;
+    }
 }
