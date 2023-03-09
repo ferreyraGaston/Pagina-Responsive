@@ -13,11 +13,16 @@
 :root{
     /* =========color========= */
     --body-color: #E4E9F7;
-    --sidebar-color: #FFF;
-    --primary-color: #695CFE;
+    --primary-color: #0EAEF3;
     --primary-color-light: #F6F5FF;
-    --toggle-color: #DDD;
-    --text-color: #707070;
+    --border-color: #AAB1FF;
+    --booton-color: rgba(170,177,255,0.3);    
+    --border-color-hover: rgba(170,177,255,0.3);
+    --booton-color-hover: #AAB1FF;
+    --text-color: #AAB1FF;
+    --text-color-dark: #0E0E0E;
+    --text-color-grey: #525254;
+    --boxshadow-color: rgba(135,141,214,0.3);
     /* ======Transicion======= */
     --Trans-02: all 0.2 s ease;
     --Trans-03: all 0.3 s ease;
@@ -59,4 +64,84 @@ header{
 .menu .navbar ul li{
     position: relative;
     float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: var(--primary-color-light);
+    display: block;
+}
+.menu .navbar ul li a:hover{
+    font-size: 18px;
+    padding: 20px;
+    color: var(--primary-color);
+
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content{
+    display: flex;
+}
+.content{
+    padding: 150px 150px 0 0;
+}
+.content h1{
+    color: var(--primary-color-light);
+    font-size: 55px;
+    text-transform: uppercase; /* convierto la letra en mayuscula */
+    font-weight: 500; /* utilizo la fuente google font */
+    line-height: 55px;  /* ancho de la letra */
+}
+
+.content p{
+    color: var(--text-color);
+    margin-top: 25px;
+    font-size: 35px;
+    text-transform: uppercase; /* convierto la letra en mayuscula */
+    line-height: 40px;  /* ancho de la letra */
+}
+.btn-1{
+    display: inline-block;
+    background-color: var(--booton-color);
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
+    margin: 35px 10px 0 0 ;
+    padding: 15px 25px;
+    color: var(--primary-color-light);
+}
+.btn-1:hover{
+    background-color: var(--booton-color-hover);
+    border: 1px solid var(--border-color-hover);
+    color: var(--primary-color-light);
+}
+.services{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.service{
+    padding: 25px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px var(--boxshadow-color);
+}
+.service img{
+    margin-top: -50px;  /* para que quede arriba y en el centro la imagen */
+}
+.service h3{
+    font-size: 20px;
+    color: var(--text-color-dark);
+    margin-bottom: 10PX;
+}
+.service p{
+    color: var(--text-color-grey);
+    font-size: 16px;
 }
